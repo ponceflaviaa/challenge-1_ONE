@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1 - Flavia Ponce</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="../img/logo.svg" alt="logo">
+        <h1>Encriptador - Desencriptador de mensajes</h1>
+    </header>
+
+    <main>
+        <section class="seccion1">
+            <textarea class="area" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="miniTexto">
+                <img src="../img/Vector.svg" alt=""><span>Solo letras minúsculas y sin acentos</span>
+            </div>
+            <div class="botones">
+                <input type="button" value="Encriptar" class="btn-encriptar">
+                <input type="button" value="Desencriptar" class="btn-desencriptar">
+            </div>
+
+        </section>
+
+
+        <section class="seccion2">
+            <div class="contenedor-muñeco">
+                <img src="../img/Muñeco.svg" alt="imagen">
+            </div>
+            <div class="contenedor-h3 ">                   <h3>Ningún mensaje fue encontrado</h3>
+            </div>
+
+            <div class="contenedor-parrafo"><p>Ingresa el texto a desencriptar</p></div>
+
+            <div class="contenedor-resultado ocultar">
+                <h3>Mensaje:</h3>
+                <p id= "textArea" class="texto-resultado"> 
+                </p>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Flavia Ponce | 2022 | Challenge 1 - Alura ONE</p>
+    </footer>
+    <script src="../scripts/index.js"></script>
+</body>
+
+</html>
